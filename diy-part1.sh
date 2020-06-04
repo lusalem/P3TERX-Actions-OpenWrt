@@ -18,8 +18,8 @@
 
 # Add Some Package
 
-mkdir -p package/custom
-cd package/custom
+#mkdir -p package/custom
+#cd package/custom
 # git clone https://github.com/coolsnowwolf/packages
 git clone https://github.com/kenzok8/small
 git clone https://github.com/kenzok8/openwrt-packages
@@ -31,7 +31,7 @@ git clone https://github.com/tty228/luci-app-serverchan
 git clone https://github.com/rufengsuixing/luci-app-adguardhome
 git clone https://github.com/pymumu/luci-app-smartdns
 git clone -b 18.06  https://github.com/jerrykuku/luci-theme-argon
-cd ../../
+#cd ../../
 
 # Modify default IP
 
